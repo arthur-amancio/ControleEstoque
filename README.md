@@ -9,6 +9,20 @@ SaaS multiempresa para controle de estoque, produção, vendas e gestão de pequ
 
 > **Status:** MVP funcional em evolução. Projeto de estudo e portfólio, ainda não preparado para uso em produção.
 
+## Visão do produto
+
+O FlowStock explora a gestão de pequenos negócios em uma aplicação com frontend e backend separados. A proposta reúne a operação de cada empresa e uma área administrativa para gerenciar empresas e planos.
+
+| Parte | Responsabilidade |
+|---|---|
+| Interface React | Telas administrativas e consumo da API. |
+| API Spring Boot | Autenticação, regras de negócio e persistência. |
+| PostgreSQL | Dados relacionais e migrations com Flyway. |
+
+A cobrança de assinaturas e os pagamentos permanecem entre as próximas evoluções; o cadastro de planos não representa uma integração financeira pronta.
+
+[Funcionalidades](#destaques) · [Arquitetura](#arquitetura) · [Execução local](#como-executar) · [Próximas evoluções](#próximas-evoluções)
+
 ## Destaques
 
 - separação de dados por empresa;
